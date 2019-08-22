@@ -4,7 +4,7 @@ Created on Wed Aug 21 17:00:45 2019
 @author: amit
 """
 
-def interpolationSearch(arr,n,x):
+def interpolation_search(arr,n,x):
     start = 0
     end = (n-1)
     
@@ -29,7 +29,7 @@ arr = [10, 12, 13, 16, 18, 19, 20, 21, 22, 23, 24, 33, 35, 42, 47]
 n = len(arr) 
   
 x = 18 # Element to be searched 
-index = interpolationSearch(arr, n, x) 
+index = interpolation_search(arr, n, x) 
 index =1  
 if index != -1: 
     print( "Element found at index",index )
